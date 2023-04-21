@@ -130,6 +130,7 @@ func (c *ApiController) DeleteToken() {
 // @Description get OAuth code
 // @Param   id     query    string  true        "The id ( owner/name ) of user"
 // @Param   client_id     query    string  true        "OAuth client id"
+// @Param   client_secret     query    string  true        "OAuth client secret"
 // @Param   response_type     query    string  true        "OAuth response type"
 // @Param   redirect_uri     query    string  true        "OAuth redirect URI"
 // @Param   scope     query    string  true        "OAuth scope"
